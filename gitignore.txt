@@ -1,0 +1,29 @@
+# Virtual Environments
+.venv/
+
+# PyCharm / JetBrains IDE settings
+.idea/
+**/.idea/
+
+# Python Cache
+__pycache__/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Exercise and Sandbox Folders
+practice/
+
+# Data Files (Ignore spreadsheets and data folders)
+*.csv
+*.xlsx
+data/
+**/data/
+
+# Keep the assignment data visible to Git even if other JSONs are ignored
+*.json
+!knowledge_base.json
+
+# Secrets & Environment Variables
+.env
+.env.*
